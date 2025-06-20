@@ -7,7 +7,7 @@ mkdir -p /tmp/.pnvim/.local/share
 mkdir -p /tmp/.pnvim/.local/state
 mkdir -p /tmp/.pnvim/.cache
 
-curl -L https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.tar.gz -O
+curl -L  https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz -O
 tar zxf nvim-linux64.tar.gz 
 mv ./nvim-linux64 /tmp/.pnvim/dist
 rm nvim-linux64.tar.gz
